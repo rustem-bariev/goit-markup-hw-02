@@ -50,7 +50,9 @@ color: var(--color-black-text)
 .nav-link:focus{
     color: var(--color-main-blue);
 }
-
+.list .link.current{
+    color: var(--color-main-blue);
+}
 .contact-link{color:var(--color-grey-text);}
 /* -------------------------------------------------------------------------- */
 /*                                Hero section                                */
@@ -146,6 +148,9 @@ color: var(--color-black-text)
 .footer{
     background-color: var(--color-grey-bgn);
 }
+.address-style{
+    font-style: normal;
+}
 .address-link{
     font-weight: 400;
     font-size: 14px;
@@ -171,6 +176,14 @@ color: var(--color-black-text)
     cursor: pointer;
     border: none;
     margin-bottom: 20px;
+}
+.btn.current{
+    width: 73px;
+    height: 38px;
+    background: var(--color-main-blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--color-white-text);
 }
 .btn:hover,
 .btn:focus{
@@ -202,4 +215,11 @@ color: var(--color-black-text)
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--color-grey-text);
+}
+.footer-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
